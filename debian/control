@@ -1,0 +1,13 @@
+Source: fcitx-skins
+Section: graphics
+Priority: extra
+Maintainer: Li Longyu <leaeasy@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://wwww.linuxdeepin.com
+
+Package: fcitx-skin-deepin
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-ui-classic
+Description: deepin skin for fcitx
+ fcitx skins of deepin
